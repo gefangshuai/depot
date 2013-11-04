@@ -20,13 +20,13 @@ then open your browser and go to:http://localhost:3000
 * Configuration
   >config/database.yml
 * Database creation
-   >>sqlite3
+  >sqlite3
 * Database initialization
 >```sh
 rake db:seed
 ```
 
 ----------
- - **Author：gefangshuai**
+ - **Author&nbsp;：gefangshuai**
  - **Email&nbsp;&nbsp;&nbsp;：gefangshuai@163.com**
  - **Blog&nbsp;&nbsp;&nbsp;&nbsp;：http://wincn.net**
