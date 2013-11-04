@@ -1,28 +1,33 @@
-== README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Depot web application
+=====================
+Depot is a online shopping application what builded by ruby on rails4 when I study《Aglie Web Development with Rails Fourth Edition》
 
-Things you may want to cover:
+#Instalation
+```bash
+$ bundle install
+$ rake db:migrate
+$ rails s
+```
+then open your browser and go to:http://localhost:3000
 
+#Development environment
 * Ruby version
+>2.0.0
 
 * System dependencies
-
+  >all gems in Gemfile
 * Configuration
-
+  >config/database.yml
 * Database creation
-
+   >>sqlite3
 * Database initialization
 
-* How to run the test suite
+```sh
+rake db:seed
+```
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+----------
+ - **Author：gefangshuai**
+ - **Email&nbsp;&nbsp;&nbsp;：gefangshuai@163.com**
+ - **Blog&nbsp;&nbsp;&nbsp;&nbsp;：http://wincn.net**
