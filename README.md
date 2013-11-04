@@ -22,8 +22,7 @@ then open your browser and go to:http://localhost:3000
 * Database creation
    >>sqlite3
 * Database initialization
-
-```sh
+>```sh
 rake db:seed
 ```
 
