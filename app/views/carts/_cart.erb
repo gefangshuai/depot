@@ -1,0 +1,20 @@
+<% unless cart.line_items.empty? %>
+<h3>Your cart</h3>
+<table width="90%" style="border-collapse: collapse;" border="1">
+  <tr>
+    <td>数量</td>
+    <td>名称</td>
+    <td>总价</td>
+  </tr>
+  <%= render @cart.line_items %>
+  <tr class="total_line">
+    <td colspan="2">Total</td>
+    <td class="total_cell">
+      <%= number_to_currency(@cart.total_price) %>
+    </td>
+  </tr>
+</table>
+<% end %>
+<%= button_to 'Empty', 
+                      @cart, method: 
+                      :delete, data: { confirm: 'Are you sure?' }  %>
